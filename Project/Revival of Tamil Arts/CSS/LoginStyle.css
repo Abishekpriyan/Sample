@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* outline: 0; */
+    text-decoration: 0;
+}
+body{
+    background-color: #fff;
+    font-family: sans-serif;
+    background-color: beige;
+    /* background-image: url("/MEDIA/Tamil2.png");
+    background-repeat:no-repeat;
+    background-size:cover; */
+   
+}
+.form-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:150px;
+    
+    
+    
+    
+}
+h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: aqua;
+}
+.form-div form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    width: 350px;
+    height: 400px;
+    background-color: #0B1b29;
+    
+    
+}
+/* .inputs{
+    align-items: center;
+    justify-content: center;
+} */
+input{
+    width: 258px;
+    height: 30px;
+     margin-top: 5px;
+    /* margin-left: 15px; */
+    padding: 7px 0px 5px 8px;
+    
+
+    background-color: #fafafa;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+
+}
+.logic-btn{
+    
+    width: 268px;
+    color: white;
+    background-color: skyblue;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid rgba(128,128,128,0.3);
+    border-radius: 5px;
+}
+
+#or{
+    padding: 5px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    
+
+}
+
+i{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+   
+
+}
+
+.fb-login{
+    text-align: center;
+    font-size: 15px;
+    color:blue;
+    margin-top: 20px;
+}
+
+.for{
+    text-align: center;
+    font-size: 14px;
+    color:white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.sign-up{
+    border: 1px solid rgba(128,128,128,0.3);
+    margin-top: 30px;
+    width: 400px;
+    height: 60px;
+   text-align: center;
+}
+
+.sign-link{
+    margin-top: 20px;
+}
+.sign-link a{
+    color:#0095f6 ;
+
+}
